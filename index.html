@@ -3,10 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="styles/site.min.css">
+    <link rel="stylesheet" href="styles/styles.min.css">
 </head>
 <body>
-    <h1>Site</h1>
-    <script src="scripts/site.min.js"></script>
+    <!-- Skip Navigation Component -->
+    <div class="skip-nav">
+        <a href="#main" class="skip-nav__link" aria-label="skip to main content">Skip to Content</a>
+    </div>
+
+    <!-- Page Header Component -->
+    <header class="page-header" role="banner">
+        <div class="page-header__branding">
+            <a class="logo-link" href="/" aria-label="go to home page"><img class="logo-link__image" src="http://fillmurray.com/150/150" alt=""></a>
+        </div>
+    </header>
+
+    <!-- Page Content Component -->
+    <main class="page-content" id="main" role="main">
+
+        <!-- Summary Component -->
+        <section class="summary" role="region">
+            <h1 class="summary__heading">Arbor UX Tools</h1>
+            <div class="summary__content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, blanditiis nisi excepturi impedit, voluptatibus sed est, consequuntur dolor illum alias consectetur aut molestias culpa. Beatae quis, expedita sed cum nobis.</p>
+                
+                <!-- Grid Component -->
+                <div class="grid">
+                    <div class="grid__item">
+                        
+                        <!-- Card Component -->
+                        <article class="card">
+                            <h1 class="card__heading">Oak Build Tools</h1>
+                            <div class="card__content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur nobis ex dicta, nesciunt quod recusandae natus quos minus.</p>
+                            </div>
+                            <ul class="card__actions">
+                                <li class="card_action"><button class="button">Docs</button></li>
+                            </ul>
+                        </article>
+
+                    </div>
+                    <div class="grid__item">
+                        
+                        <!-- Card Component -->
+                        <article class="card">
+                            <h1 class="card__heading">Persona Generator</h1>
+                            <div class="card__content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur nobis ex dicta, nesciunt quod recusandae natus quos minus.</p>
+                            </div>
+                            <ul class="card__actions">
+                                <li class="card_action"><button class="button">Docs</button></li>
+                            </ul>
+                        </article>
+
+                    </div>
+                    <div class="grid__item">
+                       
+                        <!-- Card Component -->
+                        <article class="card">
+                            <h1 class="card__heading">Willow UI Components</h1>
+                            <div class="card__content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur nobis ex dicta, nesciunt quod recusandae natus quos minus.</p>
+                            </div>
+                            <ul class="card__actions">
+                                <li class="card_action"><button class="button">Docs</button></li>
+                            </ul>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Banner Component -->
+        <section class="banner" role="region">
+            <h1 class="banner__heading--sr">Email Signup</h1>
+            <div class="banner__content">
+                <p>Stay connected on our latest releases.</p>
+                <input type="email">
+            </div>
+            <ul class="banner__actions">
+                <li class="banner__action"><button class="button">Keep Me Posted</button></li>
+            </ul>
+        </section>
+        
+    </main>
+
+    <!-- Page Footer Component -->
+    <footer class="page-footer" role="contentinfo">
+        <small class="page-footer__copyright"><!-- Insert copyright text here --></small>
+    </footer> 
 </body>
 </html>
