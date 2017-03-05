@@ -202,6 +202,8 @@ dl dl {
 ul,
 ol {
   list-style: none;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 // [1] https://developer.mozilla.org/en-US/docs/CSS/font-variant
