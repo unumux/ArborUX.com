@@ -1,5 +1,7 @@
 @mixin base() {
-
+    background-color: $component-em-background-color;
+    color: $component-em-text-color;
+    width: 100%;
 }
 
 &-card {

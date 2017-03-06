@@ -1,5 +1,13 @@
 @mixin base() {
+    background-color: $component-em-background-color;
+    left: -2000px;
+    padding: 20px 40px;
+    position: absolute;
+    top: 0;
 
+    &:focus {
+        left: 0;
+    }
 }
 
 &__link {
