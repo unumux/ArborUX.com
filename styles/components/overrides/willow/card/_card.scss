@@ -1,0 +1,11 @@
+@mixin base() {
+
+}
+
+&-card {
+    @include base;
+    @import "heading";
+    @import "content";
+    @import "actions";
+    @import "action";
+}

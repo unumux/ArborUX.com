@@ -1,0 +1,7 @@
+@mixin base() {
+
+}
+
+&-button {
+    @include base;
+}
