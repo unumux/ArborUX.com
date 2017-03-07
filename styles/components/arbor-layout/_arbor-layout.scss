@@ -1,0 +1,10 @@
+@mixin base() {
+    height: 100%;
+}
+
+.arbor-layout {
+    @include base;
+    @import "top";
+    @import "middle";
+    @import "bottom";
+}
