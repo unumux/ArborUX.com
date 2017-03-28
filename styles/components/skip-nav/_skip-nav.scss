@@ -2,6 +2,7 @@
 
 }
 
-&-styling-context {
+.skip-nav {
     @include base;
+    @import "link";
 }

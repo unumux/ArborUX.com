@@ -1,7 +1,0 @@
-@mixin base() {
-    background-color: rgba(0, 0, 0, 0.75);
-}
-
-&__bottom {
-    @include base;
-}

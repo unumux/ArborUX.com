@@ -3,11 +3,11 @@
         align-items: stretch;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
     }
 }
 
-&-grid {
+.grid {
     @include base;
     @import "item";
 }

@@ -1,8 +1,0 @@
-@mixin base() {
-
-}
-
-&-logo-link {
-    @include base;
-    @import "image";
-}

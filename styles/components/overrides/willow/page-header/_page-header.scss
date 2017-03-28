@@ -1,8 +1,0 @@
-@mixin base() {
-
-}
-
-&-page-header {
-    @include base;
-    @import "branding";
-}

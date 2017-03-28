@@ -1,0 +1,21 @@
+@import "normalize";
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("/images/arbor-complete-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 100%;
+    text-align: center;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
