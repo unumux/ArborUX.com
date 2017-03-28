@@ -7,7 +7,7 @@
     }
 }
 
-.grid {
+&-grid {
     @include base;
     @import "item";
 }
