@@ -1,0 +1,18 @@
+.parallax-background {
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, #044a4f 0%,#288f7f 45%,#13c97f 60%, #13c97f 100%);
+    height: 100vh;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+
+    &__layer {
+        left: 0;
+        position: absolute;
+        top: 0;        
+        width: 100%;
+    }
+}

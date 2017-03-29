@@ -2,3 +2,8 @@
 @import "fonts";
 @import "base-elements";
 @import "components/components";
+
+// TODO: Remove this; only here to make parallax work
+body {
+    padding-bottom: 100vh;
+}
