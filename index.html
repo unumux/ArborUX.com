@@ -18,9 +18,15 @@
         <img src="images/mountain-1.svg" role="presentation" alt="" class="parallax-background__layer">
     </div>
     <header class="willow-page-header">
-        <div class="willow-page-header__branding"><a href="/" class="willow-logo-link"><img src="../images/logo/arbor-symbol.svg" alt="" class="willow-logo-link__image"></a></div>
+        <!--option 1: include ARBOR in the branding container / include the description in a new willow-styling-context container -->
+        <div class="willow-page-header__branding"><a href="/" class="willow-logo-link"><img src="../images/logo/arbor-symbol.svg" alt="" class="willow-logo-link__image"></a><img src="../images/logo/arbor-name.svg" alt=""></div>
+        <!-- option 2: include both ARBOR and description in a new willow-styling-context container -->
+        <div class="willow-styling-context">
+            <p>A set of UX Tools created by the <a href="www.unumux.com">Unum UX</a> Team to enhance user experience research, design and development.</p>'
+        </div>
     </header>
     <main class="willow-page-content" id="main" role="main">
+        <!-- remove this willow-styling-context after choosing option 1 or 2 -->
         <div class="willow-styling-context">
             <img src="../images/logo/arbor-name.svg" alt="">
             <p>A set of UX Tools created by the <a href="www.unumux.com">Unum UX</a> Team to enhance user experience research, design and development.</p>
