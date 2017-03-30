@@ -1,0 +1,14 @@
+@mixin base() {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+    @media screen and (min-width: 868px) {
+        width: auto;
+    }
+}
+
+.logo-title {
+    @include base;
+}

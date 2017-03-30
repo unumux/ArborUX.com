@@ -1,0 +1,8 @@
+@mixin base() {
+    display: block;
+    margin-bottom: 72px;
+}
+
+&-logo-link {
+    @include base;
+}

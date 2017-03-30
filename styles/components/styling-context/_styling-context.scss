@@ -1,0 +1,18 @@
+@mixin base() {
+    margin-bottom: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+    @media screen and (min-width: 896px) {
+        width: 70%;
+    }
+}
+
+&-styling-context {
+    @include base;
+
+    p {
+        font-size: 2rem;
+    }
+}

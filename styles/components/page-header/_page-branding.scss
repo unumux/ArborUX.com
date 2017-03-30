@@ -1,0 +1,7 @@
+@mixin base() {
+    flex-basis: 100%;
+}
+
+&__page-branding {
+    @include base;
+}

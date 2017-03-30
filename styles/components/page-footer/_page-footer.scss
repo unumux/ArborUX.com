@@ -1,11 +1,11 @@
 @mixin base() {
-    margin-bottom: 36px;
+
 }
 
-&__content {
+&-page-footer {
     @include base;
 
     .willow-styling-context {
-        width: initial;
+        margin-bottom: 180px;
     }
 }

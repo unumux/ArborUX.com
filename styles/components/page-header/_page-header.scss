@@ -1,0 +1,13 @@
+@mixin base() {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
+
+&-page-header {
+    @include base;
+
+    @import "page-branding";
+}

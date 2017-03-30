@@ -1,14 +1,36 @@
 @import "normalize";
 
 html {
-    height: 100%;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    height: 100%;    
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+:last-child {
+    margin-bottom: 0 !important;
 }
 
 body {
     background-color: #11182A;
     color: #fff;
+    font-family: $font-family-base;
+    font-size: $base-font-size;
     height: 100%;
     text-align: center;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100%;
+    overflow-x: hidden;
+    
+    * {
+        margin-top: 0;
+    }
 }
 
 ul,
@@ -16,4 +38,30 @@ ol {
     list-style: none;
     margin-left: 0;
     padding-left: 0;
+}
+
+h1,
+h2, 
+h4, 
+h5, 
+h6, 
+p {
+    margin-bottom: 12px;
+}
+
+a {
+    $component-link-color: #2DAF88;
+    color: $component-link-color;
+    
+    // &:visited {
+    //     color: $component-link-color-visited;
+    // }
+
+    // &:hover {
+    //     color: $component-link-color-hover;
+    // }
+
+    // &:active {
+    //     color: $component-link-color-active;
+    // }
 }
