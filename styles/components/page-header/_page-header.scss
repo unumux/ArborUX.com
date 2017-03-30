@@ -1,13 +1,18 @@
 @mixin base() {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 60px;
-    margin-bottom: 60px;
+    flex-direction: column;
+    height: 75vh;
+    justify-content: space-around;
+    padding-top: 120px;
+
+    @media screen and (min-width: 868px) {
+        padding-top: 180px;
+    }
 }
 
 &-page-header {
     @include base;
 
-    @import "page-branding";
+    @import "branding";
+    @import "content";
 }

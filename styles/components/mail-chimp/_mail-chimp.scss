@@ -1,31 +1,28 @@
-
-
-#mc-embedded-subscribe-form {
-    margin: 0 auto;
-    max-width: 575px;
-
-    label {
-        display: block;
-        margin-bottom: 24px;
-    }
-
-    .email {
-        display: block;
+#mc_embed_signup {
+    #mc-embedded-subscribe-form {
         margin: 0 auto;
-        width: 80%;
-        margin-bottom: 24px !important;
-    }
+        max-width: 575px;
+        text-align: center;
 
-    .button {
-        background-color:#26947F;
-        border: none;
-        border-radius: 3px;
-        color: white;
-        display: inline-block;
-        padding-bottom: 12px;
-        padding-left: 24px;
-        padding-right: 24px;
-        padding-top: 12px;
-        text-decoration: none;
+        label {
+            display: block;
+            margin-bottom: 24px;
+        }
+
+        .email {
+            display: block;
+            margin: 0 auto;
+            width: 80%;
+            margin-bottom: 24px !important;
+        }
+
+        .button {
+            background-color:#26947F;
+            border: none;
+            border-radius: 3px;
+            color: white;
+            display: inline-block;
+            text-decoration: none;
+        }
     }
 }

@@ -50,18 +50,18 @@ p {
 }
 
 a {
-    $component-link-color: #2DAF88;
+    $component-link-color: white;
     color: $component-link-color;
     
-    // &:visited {
-    //     color: $component-link-color-visited;
-    // }
+    &:visited {
+        color: $component-link-color;
+    }
 
-    // &:hover {
-    //     color: $component-link-color-hover;
-    // }
+    &:hover {
+        color: $component-link-color;
+    }
 
-    // &:active {
-    //     color: $component-link-color-active;
-    // }
+    &:active {
+        color: $component-link-color;
+    }
 }

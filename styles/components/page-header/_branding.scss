@@ -1,0 +1,7 @@
+@mixin base() {
+    margin-bottom: 60px;
+}
+
+&__branding {
+    @include base;
+}
