@@ -11,11 +11,11 @@ const layerSpeeds = [
 const parallaxLayers = document.querySelectorAll(".parallax-background__layer");
 
 let previousScrollPosition = null;
-let currentScrollPosition = document.body.scrollTop;
+let currentScrollPosition = getScrollTop();
 
 
 function animationFrame() {
-    currentScrollPosition = document.body.scrollTop;
+    currentScrollPosition = getScrollTop();
     if(currentScrollPosition !== previousScrollPosition) {
         previousScrollPosition = currentScrollPosition;        
         updateParallax();
@@ -30,6 +30,10 @@ function updateParallax() {
         console.log(amountToMove);
         layer.style.transform = `translate3d(0, ${amountToMove}px, 0)`;
     });
+}
+
+function getScrollTop() {
+    return window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
 }
 
 requestAnimationFrame(animationFrame);
