@@ -27,7 +27,6 @@ function animationFrame() {
 function updateParallax() {
     parallaxLayers.forEach(function(layer, index) {
         const amountToMove = (1 - layerSpeeds[index]) * currentScrollPosition;
-        console.log(amountToMove);
         layer.style.transform = `translate3d(0, ${amountToMove}px, 0)`;
     });
 }
