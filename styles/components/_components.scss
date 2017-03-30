@@ -3,7 +3,6 @@
     @import "card/card";
     @import "grid/grid";
     @import "logo-link/logo-link";
-    @import "mail-chimp/mail-chimp";
     @import "page-content/page-content";
     @import "page-header/page-header";
     @import "page-footer/page-footer";
@@ -11,5 +10,6 @@
     @import "styling-context/styling-context";
 }
 
+@import "mail-chimp/mail-chimp";
 @import "logo-title/logo-title";
 @import "parallax-background/parallax-background";

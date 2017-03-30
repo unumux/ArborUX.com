@@ -1,7 +1,9 @@
 @mixin base() {
     background-color:#26947F;
+    border: none;
     border-radius: 3px;
     color: white;
+    display: inline-block;
     padding-bottom: 12px;
     padding-left: 24px;
     padding-right: 24px;
