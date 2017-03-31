@@ -1,0 +1,14 @@
+@mixin base() {
+    font-size: 2rem;
+
+    @media screen and (min-width: 868px) {
+        margin: 0 auto;
+        max-width: 800px;
+    }
+}
+
+.willow-styling-context {
+    p{
+        @include base;
+    }
+}

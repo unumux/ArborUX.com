@@ -1,7 +1,8 @@
 @mixin base() {
-    flex-grow: 1;
 }
 
 &__content {
     @include base;
+
+    @import "styling-context/content";
 }

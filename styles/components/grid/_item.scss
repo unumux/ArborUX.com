@@ -9,7 +9,7 @@
   }
 
   @media (min-width: 600px) {
-    width: calc(50% - 2rem);
+    width: 100%;
     margin-right: 2rem;
 
     &:last-child {
@@ -18,7 +18,7 @@
   }
 
   @media (min-width: 868px) {
-    width: 30%;
+    width: calc(33.3333% - 2rem);
     margin-right: 2rem;
 
     &:last-of-type {

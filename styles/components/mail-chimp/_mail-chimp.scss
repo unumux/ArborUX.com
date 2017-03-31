@@ -17,11 +17,12 @@
         }
 
         .button {
-            background-color:#26947F;
+            background-color: $accent-green;
             border: none;
             border-radius: 3px;
             color: white;
             display: inline-block;
+            height: auto;
             text-decoration: none;
         }
     }
