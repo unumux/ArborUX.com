@@ -1,6 +1,10 @@
+$image-width: 1456px;
+$image-height: 1099px;
+$image-ratio: $image-height / $image-width;
+
 .parallax-background {
     background-attachment: fixed;
-    background-image: linear-gradient(to bottom, #044a4f calc(100% - 85vw),#288f7f calc(100% - 55vw),#13c97f calc(100% - 45vw), #13c97f 100%);
+    background-color: #044a4f;
     height: 100vh;
     left: 0;
     overflow: hidden;
@@ -8,6 +12,17 @@
     top: 0;
     width: 100vw;
     z-index: -1;
+
+    &:after {
+        background-image: linear-gradient(to bottom, #044a4f 0%,#288f7f 40%,#13c97f 60%, #13c97f 100%);
+        bottom: 0;
+        content: "";
+        display: block;
+        height: #{$image-ratio * 100}vw;
+        position: absolute;
+        width: 100vw;
+        z-index: -2;
+    }
 
     &__layer {
         bottom: 0;        
