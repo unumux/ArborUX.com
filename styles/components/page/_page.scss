@@ -1,0 +1,7 @@
+@mixin base() {
+    padding: 0 24px;
+}
+
+&-page {
+    @include base;
+}
